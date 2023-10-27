@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@stricjs/router": "^5.0.6",
-    "@stricjs/utils": "^1.6.1",
     "drizzle-orm": "^0.28.6",
     "fast-json-stringify": "^5.8.0",
     "typescript-json": "^5.2.4"
