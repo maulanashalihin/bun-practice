@@ -1,3 +1,4 @@
+import { generateUUID } from "../utils/helper";
 import response from "../utils/response";
 
 class Controller {
@@ -9,7 +10,10 @@ class Controller {
     }
 
     string() {
-        return response.send("Hello World")
+
+        const id = generateUUID();
+
+        return response.send("Hello World : "+id)
     }
     
 
